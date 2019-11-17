@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #8dc63f;
+}
+.clear:after{
+    content: "";
+    display:block;
+    clear: both;
+}
+.wrapper{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 960px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.header{
+    padding: 25px 0;
+}
+.logo{
+    position: relative;
+}
+.logo a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.logo,
+.logo p,
+.logo img,
+.content{
+    float: left;
+}
+.logo p,
+.phones a{
+    font-size: 22px;           
+    color: #39930d;
+    text-decoration: none;
+}
+.logo b{
+    display: block;
+    font-size: 44px;
+}
+.logo i,
+.phones i{
+    font-size: 14px;
+    color: #5a5a5a;
+}
+.logo img{
+    margin-left: 35px;
+}
+.phones,
+.aside{
+    float: right;
+}
+.phones i{
+    display: block;
+    text-align: right;
+}
+.logo p,
+.phones p,
+.copy{
+    margin: 0;
+}
+.banner{
+    width: 100%;
+}
+.content{
+    margin-bottom: 45px;
+}
+.content h1{
+    font-size: 24px;
+    color: #39930d;
+}
+.content p{
+    margin: 0 0 10px;
+    width: 600px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #343434;
+}
+.aside{
+    width: 300px;
+}
+.aside p{
+    padding: 15px 20px 10px;
+    font-size: 18px;
+    background-color:#39930d;
+    color: seashell;
+}
+.partners{
+    margin: 0;
+    padding-left: 20px;
+    list-style: none;
+}
+.partners a{
+    line-height: 30px;
+    font-size: 14px;
+    color: #39930d;
+    text-transform: uppercase;
+}
+.partners a:hover{
+    text-decoration: none;
+    text-shadow: 0 0 1px rgba(0, 150, 0, 0.5);
+}
+footer{
+    margin: 0 -15px;
+    background-color: green;
+    padding: 15px;
+}
+.copy{
+    font-size: 14px;
+    color: #fff;
+}
